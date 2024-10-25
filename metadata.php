@@ -193,8 +193,8 @@ $aModule = [
         // We add it into checkout_order_main ( checkout/order.tpl ) to make sure a payment is actually added;
         // we'll also do it like that in the future for add_shipping_info ( not planed yet )
         [
-            'template' => 'page/checkout/order.tpl',
-            'block' => 'checkout_order_main',
+	        'template' => 'page/checkout/payment.tpl',
+	        'block' => 'checkout_payment_main',
             'file' => '/Application/views/blocks/add_payment_info.tpl',
             'position' => 150
         ],
